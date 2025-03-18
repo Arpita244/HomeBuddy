@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000"; // Base URL for API
+const API_URL = "https://home-buddy-one.vercel.app/"; // Base URL for API
 
 function Signup() {
   const [userData, setUserData] = useState({ name: "", email: "", password: "" });
