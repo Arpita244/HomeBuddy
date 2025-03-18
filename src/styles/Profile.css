@@ -1,0 +1,14 @@
+.profile-container {
+    text-align: center;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+  }
+  
+  .profile-container p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
