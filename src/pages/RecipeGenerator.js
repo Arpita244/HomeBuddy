@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import "../styles/RecipeGenerator.css";
+import "../styles.css";
 
 const RecipeGenerator = () => {
   const [ingredients, setIngredients] = useState("");
