@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom"; 
 
-const API_URL = "https://home-buddy-one.vercel.app/"; // Base URL for API
+const API_URL = "http://localhost:5000"; // Base URL for API
 
 function Login() {
   const [credentials, setCredentials] = useState({ email: "", password: "" });

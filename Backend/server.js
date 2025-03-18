@@ -33,6 +33,7 @@ const Service = require("./models/Service");
 
 app.post("/signup", async (req, res) => {
     try {
+      console.log(req.body)
       const { name, email, password } = req.body;
       
       if (!name || !email || !password) {

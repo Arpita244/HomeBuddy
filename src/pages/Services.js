@@ -10,7 +10,7 @@ const servicesData = [
   { id: 5, name: "Babysitting", description: "Certified babysitters for kids", price: "₹800/hr" },
 ];
 
-const API_BASE_URL = "https://home-buddy-one.vercel.app/";
+const API_BASE_URL =  "http://localhost:5000";
 
 function Services() {
   const [services, setServices] = useState([]); // Initially empty

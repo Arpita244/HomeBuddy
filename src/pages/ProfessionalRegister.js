@@ -14,7 +14,7 @@ const ProfessionalRegister = () => {
     console.log("Sending Professional Data:", professionalData); // Debugging
   
     try {
-      const response = await fetch("https://home-buddy-one.vercel.app/register-professional", {
+      const response = await fetch("http://localhost:5000/register-professional", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
